@@ -38,6 +38,9 @@ p{ margin: 0; }
 .center{ text-align: center; }
 .align_right{ text-align: right; }
 
+*{
+  box-sizing: border-box;
+}
 
 /* clearfix */
 .clearfix:after {

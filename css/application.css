@@ -1,6 +1,9 @@
 @import "font.css";
 @import "bootstrap.min.css";
 @import "theme-default.css";
+@import "owl.carousel.css";
 
+@import "button.css";
 @import "header.css";
+@import "cart.css";
 @import "footer.css";
