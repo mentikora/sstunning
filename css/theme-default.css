@@ -90,3 +90,55 @@ body{
 }
 
 /*=== FONTSTYLE ===*/
+
+/*=== CORE SHARED MENU => header + footer ==*/
+
+/* arrowed li style */
+.__core_shared_menu .arrowed li{
+  height: 14px;
+  margin-top: 25px;
+}
+  .__core_shared_menu .arrowed li:first-child{
+    margin-top: 0;
+  }
+/* social li style */
+.__core_shared_menu .socials li{
+  height: 24px;
+  margin-top: 20px;
+}
+  .__core_shared_menu .socials li:first-child{
+    margin-top: 0;
+  }
+
+.__core_shared_menu a{
+  display: inline-block;
+
+  color: #22313f;
+  font-size: 14px;
+  line-height: 14px;
+
+  transition: color .25s ease-in-out;
+}
+  .__core_shared_menu a:hover{
+    color: #c14349;
+    text-decoration: none;
+  }
+
+.__core_shared_menu .socials a{
+  line-height: 24px;
+}
+
+.__core_shared_menu i{
+    display: inline-block;
+    float: left;
+    margin-right: 7px;
+  }
+  .__core_shared_menu .arrowed i{
+    color: #c72127;
+  }
+  .__core_shared_menu .socials i{
+    margin-right: 20px;
+
+    font-size: 24px;
+  }
+  
