@@ -1,0 +1,126 @@
+/* segoe ui */
+
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+  font-family: "sreg";
+  src: url("fonts/SegoeUIRegular.eot");
+  src: url("fonts/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+  url("fonts/SegoeUIRegular.woff") format("woff"),
+  url("fonts/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "SegoeUIBold"; */
+@font-face {
+  font-family: "sbold";
+  src: url("fonts/SegoeUIBold.eot");
+  src: url("fonts/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+  url("fonts/SegoeUIBold.woff") format("woff"),
+  url("fonts/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "SegoeUIItalic"; */
+@font-face {
+  font-family: "sita";
+  src: url("fonts/SegoeUIItalic.eot");
+  src: url("fonts/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+  url("fonts/SegoeUIItalic.woff") format("woff"),
+  url("fonts/SegoeUIItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+  font-family: "slight";
+  src: url("fonts/SegoeUILight.eot");
+  src: url("fonts/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+  url("fonts/SegoeUILight.woff") format("woff"),
+  url("fonts/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+  font-family: "ssemib";
+  src: url("fonts/SegoeUISemiBold.eot");
+  src: url("fonts/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+  url("fonts/SegoeUISemiBold.woff") format("woff"),
+  url("fonts/SegoeUISemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* icomoon */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qwwf13');
+  src:  url('fonts/icomoon.eot?qwwf13#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qwwf13') format('truetype'),
+    url('fonts/icomoon.woff?qwwf13') format('woff'),
+    url('fonts/icomoon.svg?qwwf13#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alarm-clock:before {
+  content: "\e900";
+}
+.icon-angle-arrow-down:before {
+  content: "\e901";
+}
+.icon-calendar:before {
+  content: "\e902";
+}
+.icon-close-envelope:before {
+  content: "\e903";
+}
+.icon-facebook-logo-button:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-instagram-logo:before {
+  content: "\e906";
+}
+.icon-location-pin:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\e908";
+}
+.icon-phone-receiver:before {
+  content: "\e909";
+}
+.icon-right-arrow:before {
+  content: "\e90a";
+}
+.icon-shopping-cart-of-checkered-design:before {
+  content: "\e90b";
+}
+.icon-skype-logo:before {
+  content: "\e90c";
+}
+.icon-vk-social-logotype:before {
+  content: "\e90d";
+}
+.icon-youtube-logotype:before {
+  content: "\e90e";
+}
+
