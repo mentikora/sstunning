@@ -8,14 +8,33 @@
   <link rel="stylesheet" href="css/application.css">
 </head>
 <body>
-	
-	<!-- header -->
-	<header id="header">1</header>
 
-	<!-- mainwrapper -->
-  	<section id="wrapper">2</section>
+<div id="slider">
+  <div>
+    <img src="img/slider_1.jpg" alt="" class="img-responsive">
+  </div>
+  <div>
+    <img src="img/slider_2.jpg" alt="" class="img-responsive">
+  </div>
+  <div>
+    <img src="img/slider_3.jpg" alt="" class="img-responsive">
+  </div>
+</div>
 
-  	<!-- footer -->
-  	<footer id="footer">3</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- 
+  slider 
+  http://www.owlcarousel.owlgraphic.com/docs/started-installation.html
+-->
+<script src="js/slick.min.js"></script>
+<!-- slider ini -->
+<script>
+  $(document).ready(function(){
+    $('#slider').slick({
+      autoplay: true
+    });
+  });
+</script>
+
 </body>
 </html>
