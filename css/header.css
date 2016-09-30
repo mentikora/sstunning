@@ -172,11 +172,12 @@
   top: 80px;
   right: 15px;
   width: 455px;
-  padding: 30px;
+  padding: 15px 30px;
 
   border: 1px solid #e8eaeb;
   z-index: 100;
 
   background: #fff;
 }
+  
   /* + cart.css*/
