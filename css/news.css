@@ -19,7 +19,7 @@
     -o-transition: color .25s ease-in-out;
     transition: color .25s ease-in-out;
   }
-    .news_block .title:hover{
+    .news_block a.title:hover{
       color: #c4161c;
       text-decoration: none;
     }
@@ -50,6 +50,13 @@
     float: right;
   }
 
+  /* news item page */
+  .news_block .news_share{
+    float: right;
+    height: 46px;
+    line-height: 46px;
+  }
+
 @media(max-width: 767px){
   .news_block{
     padding-bottom: 20px;
@@ -60,6 +67,7 @@
     text-align: center;
   }
   .news_block .date,
-  .news_block .btn_style{ float: none; }
+  .news_block .btn_style,
+  .news_block .news_share{ float: none; }
 }
   
