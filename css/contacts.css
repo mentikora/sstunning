@@ -1,0 +1,43 @@
+.contacts_page img{
+  margin: 0 auto 30px;
+}
+
+.contacts_country{
+  margin-bottom: 50px;
+  padding: 0;
+}
+  .contacts_country .name{
+    margin-bottom: 30px;
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'ssemib', sans-serif;
+    color: #c5181e;
+  }
+  .contacts_country i{
+    display: inline-block;
+    margin-right: 25px;
+
+    font-size: 24px;
+    color: #22313f;
+  }
+  .contacts_country p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #22313f;
+    font-family: 'slight', sans-serif;
+  }
+  .contacts_country > div:not(.name){
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+@media(max-width: 767px){
+  .contacts_country{
+    padding: 0 15px;
+  }
+}
