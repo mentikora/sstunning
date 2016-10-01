@@ -1,3 +1,25 @@
 .btn_red{
   
 }
+
+.btn_style{
+	display: inline-block;
+	padding: 0 40px;
+	height: 46px;
+	line-height: 42px;
+	border: 2px solid #c72127;
+
+	-webkit-transition: background .25s ease-in-out;
+	-o-transition: background .25s ease-in-out;
+	transition: background .25s ease-in-out;
+
+	background: #e18a8d;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'ssemib', sans-serif;
+}
+	.btn_style:hover{
+		background: #c72127;
+		text-decoration: none;
+		color: #fff;
+	}
