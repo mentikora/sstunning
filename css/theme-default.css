@@ -131,6 +131,10 @@ body{
     }
   }
 
+  h2.page_title{
+    text-transform: none;
+  }
+
 .ck_editor{
   margin-top: 15px;
   margin-bottom: 15px;
