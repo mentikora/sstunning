@@ -161,13 +161,24 @@ body{
   .breadcrumb li:not(:first-child):before{
     content: '>' !important;
   }
-  .breadcrumb a{font-family: 'ssemib', sans-serif;}
+  .breadcrumb a{
+    font-family: 'ssemib', sans-serif;
+    font-size: 14px;
+
+    -webkit-transition: color .25s ease-in-out;
+    -o-transition: color .25s ease-in-out;
+    transition: color .25s ease-in-out;
+  }
   .breadcrumb a,
   .breadcrumb li:before{
     font-size: 14px;
     color: #22313f !important;  
   }
-  .breadcrumb .active{ color: #c4161c; }
+  .breadcrumb .active,
+  .breadcrumb a:hover{ 
+    color: #c4161c !important; 
+    text-decoration: none;
+  }
 
 
 /*=== CORE SHARED MENU => header + footer ==*/
