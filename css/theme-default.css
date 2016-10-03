@@ -144,6 +144,31 @@ body{
   color: #22313f;
 }
 
+/* slider */
+#slider{ height: auto !important; }
+
+/* breadcrumbs */
+.breadcrumb_wrapper{ background: #edf0f3; }
+.breadcrumb{ 
+  margin-bottom: 0; 
+  padding: 6px 15px;
+}
+  .breadcrumb .icon-home{
+    position: relative;
+    font-size: 16px;
+    top: 2px;
+  }
+  .breadcrumb li:not(:first-child):before{
+    content: '>' !important;
+  }
+  .breadcrumb a{font-family: 'ssemib', sans-serif;}
+  .breadcrumb a,
+  .breadcrumb li:before{
+    font-size: 14px;
+    color: #22313f !important;  
+  }
+  .breadcrumb .active{ color: #c4161c; }
+
 
 /*=== CORE SHARED MENU => header + footer ==*/
 

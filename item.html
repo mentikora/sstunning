@@ -8,8 +8,48 @@
   <link rel="stylesheet" href="css/application.css">
 </head>
 <body>
-  <div class="container">
-    
+
+<!-- pagination -->
+<div class="breadcrumb_wrapper">
+  <ol class="breadcrumb container">
+    <li><a href="#" class="icon-home"></a></li>
+    <li><a href="#">Focus ST</a></li>
+    <li class="active">Focus ST mk3 Wagon bodykit</li>
+  </ol>
+</div>
+
+<!-- slider -->
+<div id="slider">
+  <div>
+    <img src="img/slider_1.jpg" alt="" class="img-responsive">
   </div>
+  <div>
+    <img src="img/slider_2.jpg" alt="" class="img-responsive">
+  </div>
+  <div>
+    <img src="img/slider_3.jpg" alt="" class="img-responsive">
+  </div>
+</div>
+
+<div class="container">
+  
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- 
+  slider 
+  http://kenwheeler.github.io/slick/
+-->
+<script src="js/slick.min.js"></script>
+<!-- slider ini -->
+<script>
+  $(document).ready(function(){
+    $('#slider').slick({
+      autoplay: true,
+      arrows: false,
+      dots: true
+    });
+  });
+</script>
 </body>
 </html>
