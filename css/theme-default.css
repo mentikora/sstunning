@@ -180,6 +180,35 @@ body{
     text-decoration: none;
   }
 
+/* pagination */
+.pagination_wrapper{ text-align: center; }
+.pagination{ margin-bottom: 50px;}
+.pagination > li{
+  margin-left: 10px;
+  display: inline-block;
+}
+  .pagination > li:first-child{
+    margin-left: 0;
+  }
+.pagination > li > a{
+  display: block;
+  margin: 0px;
+  border: 0;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+
+  text-align: center;
+  font-size: 16px;
+  color: #22313f;
+  line-height: 28px;
+  
+  border-radius: 50% !important;
+}
+.pagination .active a{
+  background: #c4161c;
+  color: #fff;
+}
 
 /*=== CORE SHARED MENU => header + footer ==*/
 
