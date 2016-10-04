@@ -148,7 +148,8 @@ body{
 #slider{ height: auto !important; }
 
 /* breadcrumbs */
-.breadcrumb_wrapper{ background: #edf0f3; }
+.breadcrumb_wrapper,
+.breadcrumb{ background: #edf0f3; }
 .breadcrumb{ 
   margin-bottom: 0; 
   padding: 6px 15px;
@@ -158,11 +159,10 @@ body{
     font-size: 16px;
     top: 2px;
   }
-  .breadcrumb li:not(:first-child):before{
-    content: '>' !important;
-  }
+  .breadcrumb li,
+  .breadcrumb a{ font-family: 'ssemib', sans-serif; }
+  .breadcrumb li:not(:first-child):before{ content: '>' !important; }
   .breadcrumb a{
-    font-family: 'ssemib', sans-serif;
     font-size: 14px;
 
     -webkit-transition: color .25s ease-in-out;
