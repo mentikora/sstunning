@@ -187,9 +187,7 @@ body{
   margin-left: 10px;
   display: inline-block;
 }
-  .pagination > li:first-child{
-    margin-left: 0;
-  }
+  .pagination > li:first-child{ margin-left: 0; }
 .pagination > li > a{
   display: block;
   margin: 0px;
