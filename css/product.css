@@ -5,6 +5,8 @@
   float: left;
   width: 100%;
   margin-bottom: 30px;
+
+  overflow: hidden;
 }
   .product.sale{
     border: 1px solid #c4161c;
@@ -33,6 +35,27 @@
     font-family: 'slight', sans-serif;
   }
 
+  .product .sale_discount_popup{
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: -25px;
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    text-align: center;
+    font-size: 16px;
+    font-family: 'sbold', sans-serif;
+    font-style: italic;
+    color: #fff;
+    background: #c4161c;
+
+  }
+
 /* product exterior styles only */
 .exterior_page .product{
   display: flex;
@@ -52,7 +75,7 @@
     -o-transition: color .25s ease-in-out;
     transition: color .25s ease-in-out;
   }
-  .exterior_page .product .info{
+  .product .info{
     min-height: 280px;
 
     display: flex;
