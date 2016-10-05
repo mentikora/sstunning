@@ -293,4 +293,10 @@ body{
     -ms-flex-align: center;
     align-items: center;
   }
-  
+
+
+/* */
+iframe{
+  display: block;
+  margin: 0 auto;
+}
