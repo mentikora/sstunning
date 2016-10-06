@@ -1,6 +1,21 @@
 .btn_red{
-  
+  display: inline-block;
+  height: 46px;
+  line-height: 42px;
+  border: 2px solid #c4161c;
+
+  background: rgba(196,22,28, .5);
+  color: #fff;
+
+  -webkit-transition: background .25s ease-in-out;
+  -o-transition: background .25s ease-in-out;
+  transition: background .25s ease-in-out;
 }
+  .btn_red:hover{
+    background: #c4161c;
+    text-decoration: none;
+    color: #fff;
+  }
 
 /* slider buttons -> navs*/
 .slick-dots{
