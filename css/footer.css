@@ -18,3 +18,25 @@
     top: 6px;   
     margin-left: 20px;
   }
+
+#footer .copy{
+  float: left;
+}
+#footer .welldo{
+  float: right;
+}
+
+@media(max-width: 767px){
+  #footer .bottom{
+    height: auto;
+    padding: 10px 0;
+    line-height: 25px;
+  }
+
+  #footer .copy,
+  #footer .welldo{
+    float: none;
+    text-align: center;
+  }
+
+}
