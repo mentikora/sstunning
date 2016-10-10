@@ -6,6 +6,7 @@
 
   background: rgba(196,22,28, .5);
   color: #fff;
+  text-align: center;
 
   -webkit-transition: background .25s ease-in-out;
   -o-transition: background .25s ease-in-out;
