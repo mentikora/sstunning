@@ -25,6 +25,14 @@
 #footer .welldo{
   float: right;
 }
+/* footer new one*/
+#footer .header_ul_style{
+    margin: 0;
+}
+    #footer .header_ul_style a{
+        font-size: 14px !important;
+        font-family: 'sreg', sans-serif;
+    }
 
 @media(max-width: 767px){
   #footer .bottom{

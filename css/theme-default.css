@@ -218,6 +218,28 @@ body{
   .__core_shared_menu .arrowed li:first-child{
     margin-top: 0;
   }
+  .arrowed li{
+      position: relative;
+      padding-left: 15px;
+  }
+  .arrowed li:before{
+      position: absolute;
+      content: '>';
+      display: block;
+      top: 5px;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      line-height: 10px;
+      color: red;
+  }
+  .header_menu.on .header_ul_style{
+     margin: 0;
+  }
+  .header_menu.on .arrowed a{
+      font-size: 14px !important;
+      font-family: 'sreg', sans-serif;
+  }
 /* social li style */
 .__core_shared_menu .socials li{
   height: 24px;
