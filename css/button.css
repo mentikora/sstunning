@@ -11,6 +11,8 @@
   -webkit-transition: background .25s ease-in-out;
   -o-transition: background .25s ease-in-out;
   transition: background .25s ease-in-out;
+
+  cursor: pointer;
 }
   .btn_red:hover{
     background: #c4161c;
